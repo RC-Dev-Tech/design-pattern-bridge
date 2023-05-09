@@ -2,7 +2,6 @@
 > ##### 理論請自行找，網路上有很多相關的文章，這邊只關注於範例實作的部分.
 
 ---
-<br>
 
 <!--ts-->
 ## 目錄
@@ -15,26 +14,22 @@
 <!--te-->
 
 ---
-<br>
 
 ## 目的
 將一個大的抽象類別與其相關的實現細節分離開來，並且讓它們可以互相獨立地變化。
 
 ---
-<br>
 
 ## 使用時機
 當需要將抽象類別與其實現相分離，使它們可以互相獨立地變化，並且可以透過組合方式建立一個多層次的結構時，可以使用 Bridge 設計模式。
 
 ---
-<br>
 
 ## URL結構圖
 ![](https://drive.google.com/uc?id=10yxMrVFLzEN3EOSHSqL8fw-6_cChkh1-)
 > 圖片來源：[Refactoring.Guru - Bridge](https://refactoring.guru/design-patterns/bridge) 
 
 ---
-<br>
 
 ## 實作成員
 * Abstraction
@@ -54,22 +49,18 @@
 只需要繼承 Abstraction 或 Implementor，而不用修改原有的程式碼。<br>
 
 ---
-<br>
 
 ## 實作範例:
 - [待補...]() 
 
 ---
-<br>
 
 ## 參考資料
 * [Wiki - Bridge Pattern](https://en.wikipedia.org/wiki/Bridge_pattern) <br>
 * [Refactoring.Guru - Bridge](https://refactoring.guru/design-patterns/bridge) <br>
 
 ---
-<br>
 
----
 <!--ts-->
 #### [目錄 ↩](#目錄)
 <!--te-->
