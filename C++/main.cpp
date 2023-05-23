@@ -17,6 +17,7 @@
 */
 class Implementor {
 public:
+    virtual ~Implementor() {}
     virtual void OperationImpl() const = 0;
 };
 
@@ -46,7 +47,7 @@ protected:
 
 public:
     Abstraction(Implementor* implementor) : implementor(implementor) {}
-
+    virtual ~Abstraction() {}
     virtual void Operation() const = 0;
 };
 
